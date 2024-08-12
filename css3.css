@@ -1,0 +1,44 @@
+body{
+    display: block;
+    margin: 8px;
+}
+
+
+.container {
+    background-image: url(https://media.istockphoto.com/id/966411798/photo/ingredients-for-cooking-chocolate-pastry-from-above.jpg?s=2048x2048&w=is&k=20&c=WZhGb6ua0A9OJKBU0HcVM1ATlbPm144FPWbREaHJT5s=);
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 100%;   
+}
+*{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.food-item {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    max-width: 300px;
+}
+
+.food-item img {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.food-item h3 {
+    margin: 15px 0;
+    font-size: 20px;
+    color: black;
+}
+
+.food-item p {
+    padding: 0 10px 10px;
+    color: rgb(2, 22, 2);
+}
